@@ -1,7 +1,7 @@
 
-import numpy as np 
+import numpy as np
 
-arr=np.array([1,2,3,4,5],ndmin=5)
+arr = np.array([1, 2, 3])
 
-print(arr)
-print('shape of array:',arr.shape)
+for x in arr:
+  print(x)
